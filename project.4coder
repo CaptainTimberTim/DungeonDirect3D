@@ -1,0 +1,35 @@
+version(2);
+project_name = "MPlay3";
+patterns = {
+"*.c",
+"*.cpp",
+"*.h",
+"*.m",
+"*.bat",
+"*.sh",
+"*.hlsl",
+"*.4coder",
+};
+blacklist_patterns = {
+".*", "resources", 
+};
+load_paths_base = {
+ { ".", .relative = true, .recursive = true, },
+};
+load_paths = {
+ .win = load_paths_base,
+};
+
+commands = {
+ .build = { .out = "*compilation*", .footer_panel = true, .save_dirty_files = true,
+   .win = "build.bat", },
+ .buildOptimized = { .out = "*compilation optimized*", .footer_panel = true, .save_dirty_files = true,
+   .win = "buildOptimized.bat", },
+ .run = { .out = "*run*", .footer_panel = false, .save_dirty_files = false,
+   .win = ".\\build\\MPlay3.exe", }
+};
+fkey_command = {
+.F1 = "build",
+.F2 = "buildOptimized",
+.F4 = "run",
+};

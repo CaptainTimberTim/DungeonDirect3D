@@ -1,0 +1,63 @@
+#  ==========================================================================
+#  Wavefront Material file
+#  Exported by Red-i Productions' "Riptide Pro"
+#  (a commercial plugin for Cinema 4D PC & Mac, R10 or later)
+#  
+#  Red-i Productions
+#  http://skinprops.com
+#  
+#  ==========================================================================
+
+newmtl orange
+Kd 0.908163 0.514125 0.232670
+Ka 0.908163 0.514125 0.232670
+Ks 0.908163 0.514125 0.232670
+Ns 4.0
+Tf 1 1 1
+illum 1
+map_Ka 576.bmp
+
+newmtl violet
+Kd 0.726345 0.484230 0.887755
+Ka 0.726345 0.484230 0.887755
+Ks 0.726345 0.484230 0.887755
+Ns 4.0
+Tf 1 1 1
+illum 1
+map_Ka 576.bmp
+
+newmtl yellow
+Kd 0.908163 0.789577 0.315230
+Ka 0.908163 0.789577 0.315230
+Ks 0.908163 0.789577 0.315230
+Ns 4.0
+Tf 1 1 1
+illum 1
+map_Ka 576.bmp
+
+newmtl blue
+Kd 0.287570 0.540631 0.632653
+Ka 0.287570 0.540631 0.632653
+Ks 0.287570 0.540631 0.632653
+Ns 4.0
+Tf 1 1 1
+illum 1
+map_Ka 576.bmp
+
+newmtl green
+Kd 0.333952 0.459184 0.231489
+Ka 0.333952 0.459184 0.231489
+Ks 0.333952 0.459184 0.231489
+Ns 4.0
+Tf 1 1 1
+illum 1
+map_Ka 576.bmp
+
+newmtl red
+Kd 0.489796 0.121437 0.121437
+Ka 0.489796 0.121437 0.121437
+Ks 0.489796 0.121437 0.121437
+Ns 4.0
+Tf 1 1 1
+illum 1
+map_Ka 576.bmp
